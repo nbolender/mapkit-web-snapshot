@@ -1,0 +1,23 @@
+{
+  "name": "nbolender/mapkit-web-snapshot",
+  "description": "Generate a signed URL to an Apple MapKit Web Snapshot.",
+  "type": "library",
+  "keywords": ["apple maps", "mapkit"],
+  "homepage": "https://github.com/nbolender/mapkit-web-snapshot",
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Nathan Bolender",
+	  "email": "nathan@nathanbolender.com"
+	}
+  ],
+  "require": {
+	"php": ">=7.0.0",
+	"ext-openssl": "*"
+  },
+  "autoload": {
+	"psr-0": {
+	  "NBolender\\MapKit\\": "src/"
+	}
+  }
+}
