@@ -33,7 +33,7 @@ $additional_parameters = [
     ],
 ];
 
-$url = WebSnapshot::signedURL($teamId, $keyId, $private_key, $additional_parameters);
+$url = WebSnapshot::signedURL($teamId, $keyId, $private_key, $center, $additional_parameters);
 echo $url;
 ```
 
